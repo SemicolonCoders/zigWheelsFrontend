@@ -15,7 +15,7 @@ const Signup = () => {
     event.preventDefault();
 
     try {
-      const response = await fetch('http://localhost:5000/api/user/register', {
+      const response = await fetch('https://zigwheelsbackend-4.onrender.com/api/user/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
